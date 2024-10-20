@@ -31,7 +31,7 @@ Moreno has assigned me the first question to answer: How do annual members and c
 There are 12 monthly csv files and each includes information on ride id, ride type, start time, end time, start station name, start station id, end station name, end station id, start gps location, end gps location and rider’s membership type. 
 
 ## Process
-BigQuery is selected as the platform to manage and analyze the data. This is because Microsoft Excel spreadsheet has a row limit of 1,048,576 rows and a column limit of 16,384 columns and is unable to handle large datasets such as Cyclistic dataset which has 5.6 millions rows.
+BigQuery is selected as the platform to manage and analyze the data. This is because Microsoft Excel spreadsheet has a row limit of 1,048,576 rows and a column limit of 16,384 columns. It is unable to handle large datasets such as Cyclistic dataset which has 5.6 millions rows.
 
 ### Data Combination
 * As the Free Plan on BigQuery limits 100MB per upload, the 12 CSV files (which is larger than 100MB each) are first uploaded in Google Cloud Storage before being uploaded as tables in the dataset `cyclistic_data`.

@@ -39,6 +39,56 @@ BigQuery is selected as the platform to manage and analyze the data. This is bec
 * The 12 CSV files are combined into the data table `cyclistic_12months_data` and contains 5699639 rows.
 
 ### Data Exploration
+* Null Values
+  * Observed 968697 rows of null values for start_station_name
+  * Observed 968697 rows of null values for start_station_id
+    * Checked that both start_station_name and start_station_id null values occur at the same row
+  * Observed 1006133 rows of null values for end_station_name
+  * Observed 1006133 rows of null values for end_station_id
+    * Checked that both end_station_name and end_station_id  null values occur at the same row
+    * Checked that 472808 rows contain null values for start and end_station_name and start and end_station_id
+  * Observed 7526 rows of null values for end_lat
+  * Observed 7526 rows of null values for end_lng
+    * Checked that both end_lat and end_lng  null values occur at the same row
+    
+![image](https://github.com/user-attachments/assets/60ed60fc-7419-4677-9de2-04db3c895cfe)
+
+* Duplicates
+  * Observed 211 duplicate ride_id
+
+![image](https://github.com/user-attachments/assets/fc17d967-a235-48b0-a6bc-9b0b0b4be404)
+
+* String Length
+  * All ride_id have the same length of 16 char
+
+![image](https://github.com/user-attachments/assets/67edf445-46ac-43f5-a920-0a9231bafb4b)
+
+* Trip Duration (in minutes)
+  * Observed 469306 rows with trip duration less than 5 minutes
+  * Observed 11859 rows with trip duration more than a day
+  * Observed 344 rows with negative trip duration
+
+![image](https://github.com/user-attachments/assets/1ea79d12-68df-41b4-9afd-827c39c6264c)
+
+* Membership type
+  * 2 types: member and casual
+  * Trip counts for each type sums up to total number of row
+
+![image](https://github.com/user-attachments/assets/3cf10c29-19ad-4a4e-89f9-e373c3cdc819)
+
+* Ride type
+  * 2 types: electric and classic
+  * Trip counts for each type sums up to total number of rows
+
+![image](https://github.com/user-attachments/assets/1d0a231f-ccb6-4e25-8d7b-e6a96fe6748d)
 
 
-
+### Data Cleaning
+* Removed  1502022 rows of null values
+* Removed 121 rows of duplicate values 
+* Removed 816586 rows of duration less than 5 minutes, more than a day or negative
+* Total removed: 2318729 row
+* Remaining: 3380910 rows
+* Added 2 columns 
+  * ride_length: calculate the trip duration in HH:MM:SS format
+  * day_of_week: determine which day of the week the trip started

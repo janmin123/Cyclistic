@@ -154,12 +154,12 @@ From the data above, we can observe that
 1) Members are likely using the bikes for commuting to and from their workplace, residential area and possibly schools. This can be seen from the **spike in trip count during peak hours in the morning and evening**, **coupled with the decrease in trip count on the weekends when there is no work or school**.
 2) Casual riders are likely using the bikes for leisure purposes such as touring or sightseeing . This can be observed from the 
 **gradual increase in trip count throughout the day until 5pm where the usage decreases after 5pm which is the closing hours of most places of attraction**,
-**significant increase (~2x) in trip counts on the weekends**,
+**significant increase (~2x) in trip counts on the weekends**and
 **gradual increase in average trip duration on the weekends**.
 3) Both members and casual riders observe a dip in trip counts during colder months from October till January. However, the cycle duration for members remain consistent while casual riders are observed to cycle for a shorter duration during this period. This further supports the hypothesis that members are using the bikes for commuting while casual riders are using the bikes for more ad hoc and leisure purposes
 4) Casual riders has a lower frequency than members in terms of the trips they take but twice the trip duration
    
-To further confirm the findings above, we look at the geographical data of the trips taken by the riders
+To further confirm the findings above, we look at the geographical data of the trips taken by the riders. From below, we are able to see that casual riders hotspots are located along the coastal regions while members hotspots are scattered around the city center.
 
 <kbd>
 <img src="https://github.com/user-attachments/assets/a2dd0d38-6dac-4cdd-a5a0-412483ec3fcf" width="900" height="400">

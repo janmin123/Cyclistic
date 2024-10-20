@@ -99,6 +99,8 @@ BigQuery is selected as the platform to manage and analyze the data. This is bec
   * day_of_week: determine which day of the week the trip started
 
 ## Analyze
+Tableau was chosen for visualizing the data as it enables quick and impactful insights into the riders' bike usages patterns and trends.
+
 <kbd>
 <img src="https://github.com/user-attachments/assets/06cdb402-7d7b-49d1-855a-1b274fcff46f" width="900" height="420">
 </kbd>

@@ -136,7 +136,7 @@ Tableau was chosen for visualizing the data as it enables quick and impactful in
 </kbd>
 
 * Average trip duration in a day
-  * The trip duration for casual riders tend to dip at around 3-5am  on bounces back only from 8am.
+  * The trip duration for casual riders tend to dip at around 3am - 5am  on bounces back only from 8am.
   * The trip duration for members also remain consistent throughout without any significant changes.
 
 * Average trip duration in a week
@@ -150,14 +150,15 @@ Tableau was chosen for visualizing the data as it enables quick and impactful in
   * The trip duration for casual riders sees a dip from October onwards before picking up gradually in January.
   * The trip duration for members also remain consistent throughout without any significant changes.
 
-From the data above, we can hypothesize that
+From the data above, we can observe that
 1) Members are likely using the bikes for commuting to and from their workplace, residential area and possibly schools. This can be seen from the **spike in trip count during peak hours in the morning and evening**, **coupled with the decrease in trip count on the weekends when there is no work or school**.
 2) Casual riders are likely using the bikes for leisure purposes such as touring or sightseeing . This can be observed from the 
 **gradual increase in trip count throughout the day until 5pm where the usage decreases after 5pm which is the closing hours of most places of attraction**,
 **significant increase (~2x) in trip counts on the weekends**,
 **gradual increase in average trip duration on the weekends**.
 3) Both members and casual riders observe a dip in trip counts during colder months from October till January. However, the cycle duration for members remain consistent while casual riders are observed to cycle for a shorter duration during this period. This further supports the hypothesis that members are using the bikes for commuting while casual riders are using the bikes for more ad hoc and leisure purposes
-
+4) Casual riders has a lower frequency than members in terms of the trips they take but twice the trip duration
+   
 To further confirm the findings above, we look at the geographical data of the trips taken by the riders
 
 <kbd>
@@ -168,10 +169,35 @@ To further confirm the findings above, we look at the geographical data of the t
 <img src="https://github.com/user-attachments/assets/87938eba-789d-4b52-b388-415e5c08f817" width="900" height="400">
 </kbd>
 
-* Casual riders are observed to start and end their trip near the coastal areas while members are relatively spread out across the Chicago’s city center. 
-  * The casual riders are likely using the bikes for sightseeing and touring as most of Chicago’s places of attraction are located near the coastal areas, for instance the Navy Pier, 360 Chicago, Museum of Contemporary Art and Millennium Park just to name a few.
-  * The member riders are likely using the bikes for commuting as most trip locations are spread out across the city center where the offices, schools and residential areas are located.
+To summarize the findings in terms of differences between members and casual riders: 
+* Purpose of Bike Usage
+  * Casual riders are likely using the bikes for sightseeing and touring as they coincide with most of Chicago’s places of attraction are located near the coastal areas, for instance the Navy Pier, 360 Chicago, Museum of Contemporary Art and Millennium Park just to name a few.
+  * Member riders are likely using the bikes for commuting as most trip locations are spread out across the city center where the offices, schools and residential areas are located.
+ 
+* Time of Bike Usage
+  * Casual riders are likely to ride bikes during weekends and the usage gradually increase throughout the day from 5am to 5pm.They are likely to use the bikes during Spring/Summer/Autumn as during winter (October to January) we see the trip counts and average trip duration dipping concurrently.
+  * Members are likely to use the bikes during weekdays and especially during peak hours (5am - 9am and 3pm - 6pm) for commuting. Similar to casual riders, members use the bikes frequently in Spring/Summer/Autumn and lesser during winter. However, their trip duration did not dip during Winter, suggesting that they may still be using the bikes for commuting purpose.
+    
+* Frequency and duration of Bike Usage
+  * Casual riders has a lower frequency of trip undertaken than members, but their average trip duration is approximately twice longer
 
-* Both rider type see most of the rides contained within the city center and starts to decrease the further it is from the center. This may suggest that bikes may be more popular and purposeful within the urban area where facilities and amenities are nearer to each other and more interconnected since the average ride duration for both riders range from maximum 15 to 30 minutes. However, this needs to be further validated with more data.
+
+## Act
+With the differences in bike usage patterns identified, I propose the below marketing strategies targeted at casual riders to convert them to members.
+
+### Targeted Promotions
+* **Seasonal Membership Offers**: Introduce special promotions during Spring/Summer to encourage casual riders to sign up for memberships, highlighting the benefits of year-round access.
+* **Weekend Deals**: Offer discounts on weekend rides for casual users who sign up for membership, emphasizing the value of unlimited rides.
+
+### Enhanced Experience Offerings
+* **Exclusive Events**: Organize member-only events, such as guided tours of attractions, to provide casual riders with unique experiences that incentivize membership.
+* **Loyalty Programs**: Develop a loyalty program that rewards members for frequent rides, potentially converting casual riders who enjoy longer trips
+
+### Flexible Membership Options
+*  **Trial Memberships**: Offer a discounted trial membership for casual riders, allowing them to experience the benefits of membership firsthand without a long-term commitment.
+*  **Flexible Payment Plans**: Introduce flexible membership options, such as monthly payments, to make it easier for casual riders to transition.
+
+
+
 
 

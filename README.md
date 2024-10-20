@@ -154,7 +154,7 @@ From the data above, we can observe that
 1) Members are likely using the bikes for commuting to and from their workplace, residential area and possibly schools. This can be seen from the **spike in trip count during peak hours in the morning and evening**, **coupled with the decrease in trip count on the weekends when there is no work or school**.
 2) Casual riders are likely using the bikes for leisure purposes such as touring or sightseeing . This can be observed from the 
 **gradual increase in trip count throughout the day until 5pm where the usage decreases after 5pm which is the closing hours of most places of attraction**,
-**significant increase (~2x) in trip counts on the weekends**and
+**significant increase (~2x) in trip counts on the weekends** and
 **gradual increase in average trip duration on the weekends**.
 3) Both members and casual riders observe a dip in trip counts during colder months from October till January. However, the cycle duration for members remain consistent while casual riders are observed to cycle for a shorter duration during this period. This further supports the hypothesis that members are using the bikes for commuting while casual riders are using the bikes for more ad hoc and leisure purposes
 4) Casual riders has a lower frequency than members in terms of the trips they take but twice the trip duration
@@ -170,15 +170,15 @@ To further confirm the findings above, we look at the geographical data of the t
 </kbd>
 
 To summarize the findings in terms of differences between members and casual riders: 
-* Purpose of Bike Usage
+* **Purpose of Bike Usage**
   * Casual riders are likely using the bikes for sightseeing and touring as they coincide with most of Chicago’s places of attraction are located near the coastal areas, for instance the Navy Pier, 360 Chicago, Museum of Contemporary Art and Millennium Park just to name a few.
   * Member riders are likely using the bikes for commuting as most trip locations are spread out across the city center where the offices, schools and residential areas are located.
  
-* Time of Bike Usage
+* **Time of Bike Usage**
   * Casual riders are likely to ride bikes during weekends and the usage gradually increase throughout the day from 5am to 5pm.They are likely to use the bikes during Spring/Summer/Autumn as during winter (October to January) we see the trip counts and average trip duration dipping concurrently.
   * Members are likely to use the bikes during weekdays and especially during peak hours (5am - 9am and 3pm - 6pm) for commuting. Similar to casual riders, members use the bikes frequently in Spring/Summer/Autumn and lesser during winter. However, their trip duration did not dip during Winter, suggesting that they may still be using the bikes for commuting purpose.
     
-* Frequency and duration of Bike Usage
+* **Frequency and duration of Bike Usage**
   * Casual riders has a lower frequency of trip undertaken than members, but their average trip duration is approximately twice longer
 
 

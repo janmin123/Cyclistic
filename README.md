@@ -91,8 +91,8 @@ BigQuery is selected as the platform to manage and analyze the data. This is bec
 ### Data Cleaning
 * Removed  1502022 rows of null values
 * Removed 121 rows of duplicate values 
-* Removed 816586 rows of duration less than 5 minutes, more than a day or negative
-* Total removed: 2318729 row
+* Removed 816586 rows of trips with duration less than 5 minutes, more than a day or has negative duration
+* Total removed: 2318729 rows
 * Remaining: 3380910 rows
 * Added 2 columns 
   * ride_length: calculate the trip duration in HH:MM:SS format

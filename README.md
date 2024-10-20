@@ -186,8 +186,9 @@ To summarize the findings in terms of differences between members and casual rid
 With the differences in bike usage patterns identified, I propose the below marketing strategies targeted at casual riders to convert them to members.
 
 ### Targeted Promotions
-* **Seasonal Membership Offers**: Introduce special promotions during Spring/Summer to encourage casual riders to sign up for memberships, highlighting the benefits of year-round access.
+* **Seasonal Membership Offers**: Introduce special promotions during Spring/Summer/Autumn to encourage casual riders to sign up for memberships, highlighting the benefits of year-round access.
 * **Weekend Deals**: Offer discounts on weekend rides for casual users who sign up for membership, emphasizing the value of unlimited rides.
+* **Roadshows**: Conduct roadshows near places of attraction, especially along the coastal regions, to increase visibility for the promotions available for the casual riders.
 
 ### Enhanced Experience Offerings
 * **Exclusive Events**: Organize member-only events, such as guided tours of attractions, to provide casual riders with unique experiences that incentivize membership.
